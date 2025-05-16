@@ -1,13 +1,15 @@
 import React from 'react';
 import HeaderNav from './components/navbar'
-import Cover from "./assets/cover.jpg";
+import TitalHeader from './components/title-header';
+import Body from './components/body';
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-amber-50">
       <HeaderNav></HeaderNav>
-      <img src={Cover} alt="Example" className="w-full h-auto opacity-60" />
+      <TitalHeader></TitalHeader>
+      <Body></Body>
     </div>
   );
 }
